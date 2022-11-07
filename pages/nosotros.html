@@ -4,60 +4,73 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../styles/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./../styles/style.css" />
     <title>Nosotros</title>
   </head>
-  <body class="body">
+  <body >
+    <div class="body" >
+    <div class="container">
     <!-- comienzo del header -->
-    <header class="encabezado">
-      <div>
-        <a href="../index.html">
-          <picture
-            ><img
-              src="../assents/images/LogoRosaSF.png"
-              width="200px"
-              alt="logo"
-            />
-          </picture>
-        </a>
+    <header class="encabezado encabezadoMobile">
+
+      <div >
+          <a href="./../index.html">
+            <img src="./../assents/images/LogoRosaSF.png" alt="logo" width="200px" height="auto" >
+          </a>
+        
       </div>
+
       <div>
-        <form action="" target="_blank">
-          <input
-            type="search"
-            name="Buscador"
-            id="Search"
-            placeholder="Buscador"
-          />
-          <input type="submit" value="Buscar" />
-        </form>
-        <h5 class="letraHeader">Acceso Resgistro</h5>
-        <a class="letraHeader" href="./registropaciente.html">Paciente</a>
-        <a class="letraHeader" href="./profesionalesmedicos.html"
-          >Profesional Medico</a
-        >
+          <h5 class="letraHeader">Acceso Resgistro</h5>
+        <a class= "letraHeader" href="./registropaciente.html">Paciente</a>
+        <a class= "letraHeader" href="./profesionalesmedicos.html">Profesional Medico</a>
       </div>
-    </header>
+
+</header>
+
 
     <!-- comienzo del nav -->
-    <nav class="barraNav">
-      <ul>
-        <li><a href="../index.html">Inicio</a></li>
-        <li><a href="./servicios.html">Servicios</a></li>
-        <li>
-          <a href="./profesionalesmedicos.html">Para Profesionales Medicos</a>
-        </li>
-        <li><a href="./donaciones.html">Donaciones</a></li>
-      </ul>
+    <nav class="navbar navbar-expand-lg  barraNav navMobile" style="background-color: #2c6ccc">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button >
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./profesionalesmedicos.html">Para Profesional Medico</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./donaciones.html">Donaciones</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-light" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
     </nav>
+
+
 
     <!-- comienzo del main -->
 
     <main>
       <section>
-        <article class="gridArticles">
-          <div class="articleCMSF">
-            <div>
+        <article class="gridArticlesDesk">
+          <div class="containerHospital">
+            <div class="contentHospital">
               <h3>Centro Medico Salud Femenina</h3>
               <p>
                 La misión de Salud Femenina es brindar la mejor atención a todas
@@ -71,18 +84,15 @@
 
           <div class="imgHospital">
             <picture>
-              <img
-                src="../assents/images/hospital.jpg"
-                alt="hospital"
-                width="90%"
-              />
+              <img src="../assents/images/hospital.jpg" class="img-fluid" alt="hospital">
             </picture>
           </div>
         </article>
 
         <article class="gridArticles2">
-          <div>
-            <div class="article2">
+          <div class="containerArticulo spaceArticles">
+
+            <div>
               <h3>Nuestros Profesionales</h3>
               <p>
                 Nuestros proveedores principales de atención médica tienen
@@ -94,17 +104,17 @@
                 de enfermedades leves.
               </p>
             </div>
-            <div class="imagArticles2">
-              <picture
-                ><img
-                  src="../assents/images/doctor.jpg"
-                  alt="doctor"
-                  width="90%"
-              /></picture>
+
+            <div>
+              <picture>
+                <img src="../assents/images/doctor.jpg" class="img-fluid" alt="Medico Profesional">
+              </picture>
             </div>
+
           </div>
-          <div>
-            <div class="article2">
+
+          <div class="containerArticulo">
+            <div>
               <h3>Sistema de Salud</h3>
               <p>
                 El Sistema de Salud Femenina es una familia despecialidades
@@ -118,30 +128,34 @@
               </p>
             </div>
 
-            <div class="imgArticles2">
+            <div>
               <picture>
-                <img
-                  src="../assents/images/neonato.jpg"
-                  alt="neonato"
-                  width="90%"
-              /></picture>
+                <img src="../assents/images/neonato.jpg" class="img-fluid" alt="neonato">
+              </picture>
             </div>
           </div>
+
         </article>
       </section>
     </main>
 
     <!-- comienzo del footer -->
-
     <footer>
-      <div class="foot">
-        <div class="footCont1">
-          <div class="contTerms">
+      <div class="footContainer">
+      <div class="containerTermsCubo footMobile">
+    
+        <div class="containerTerms">
+          
+          <div class="contTerms contTermsMobile">
+            <div>
             <p class="textTerms">
               Cualquier uso de este sitio constituye su acuerdo con los términos
               y condiciones y política de privacidad para los que hay enlaces
               abajo.
             </p>
+            </div>
+    
+            <div>
             <ul>
               <li>
                 <a
@@ -150,6 +164,8 @@
                   >Términos y condiciones</a
                 >
               </li>
+              
+              
               <li>
                 <a
                   class="textTerms"
@@ -157,6 +173,8 @@
                   >Política de privacidad</a
                 >
               </li>
+              
+              
               <li>
                 <a
                   class="textTerms"
@@ -164,7 +182,8 @@
                   >Aviso de prácticas en cuanto a privacidad</a
                 >
               </li>
-
+              
+              
               <li>
                 <a
                   class="textTerms"
@@ -172,49 +191,66 @@
                   >Para administrar cookies</a
                 >
               </li>
+              
             </ul>
           </div>
-          <div class="contCMSF">
-            <div class="textCMSF">
-              <a href="../index.html"
-                ><h5 class="textCMSFdeco">
+          
+        </div>
+          </div>
+    
+          <div class="conteinerCMSF contCMSFmobile">
+            <div>
+              <a href="./index.html"
+                ><h5 class="textCMSFdeco ">
                   Centro Medico de Salud Femenina es una organizacion sin fines
                   de lucro
-                </h5></a
-              >
+                </h5></a>
             </div>
           </div>
         </div>
+    
         <div class="footCont2">
           <div class="iconSM">
+            <div>
             <a href="https://www.instagram.com"
-              ><picture
-                ><img
-                  src="../assents/images/IgLogo.png"
-                  alt="instagram"
-                  width="40px" /></picture
-            ></a>
+              ><picture><img
+                src="./../assents/images/IgLogo.png"
+                alt="instagram"
+                width="40px"
+            /></picture></a>
+            </div>
+            <div><a href="https://www.instagram.com">Instagram</a></div>
           </div>
+    
           <div class="iconSM">
+            <div>
             <a href="https://www.facebook.com"
-              ><picture
-                ><img
-                  src="../assents/images/FbLogo.png"
-                  alt="facebook"
-                  width="40px" /></picture
-            ></a>
+              ><picture><img
+                src="./../assents/images/FbLogo.png"
+                alt="facebook"
+                width="40px"
+            /></picture></a>
+            </div>
+            <div><a href="https://www.facebook.com">Facebook</a></div>
           </div>
+    
           <div class="iconSM">
+            <div>
             <a href="https://twitter.com/?lang=es"
-              ><picture
-                ><img
-                  src="../assents/images/TwLogo.png"
-                  alt="twitter"
-                  width="40px" /></picture
-            ></a>
+              ><img
+                src="./../assents/images/TwLogo.png"
+                alt="twitter"
+                width="40px"
+            /></a>
+            </div>
+            <div><a href="https://twitter.com/?lang=es">Twitter</a></div>
+    
           </div>
         </div>
       </div>
     </footer>
+  </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   </body>
 </html>
