@@ -3,6 +3,7 @@
 /* colores */
 /* fuentes */
 /* tamaño de fuentes */
+/* breakpoitns */
 /* normalized */
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 * {
@@ -23,10 +24,13 @@ ul li a {
   text-decoration: none; }
 
 a {
-  text-decoration: none;
-  text-decoration-color: none; }
+  text-decoration: none; }
 
 h1 {
+  color: black;
+  font-size: 16px; }
+
+h2 {
   color: black;
   font-size: 16px; }
 
@@ -255,6 +259,13 @@ header {
   border-radius: 4px;
   box-sizing: border-box; }
 
+/* @if $footer == mobile {
+    @media screen and (min-width:800px) {
+        
+    }} else {
+
+    }
+ */
 /* comienzo del footer desk */
 .footContainer {
   display: grid;
@@ -355,5 +366,40 @@ header {
 
 .gridInfoHome a {
   text-decoration: none;
+  color: black;
+  font-size: 10px; }
+
+/* articulos */
+.containerHospital {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: none;
+  align-content: end;
+  justify-content: space-between;
+  align-items: flex-end; }
+  .containerHospital .containerHospital_content {
+    padding-right: 10px;
+    border-top: 5px solid aliceblue;
+    text-align: justify; }
+
+.gridArticles2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: none;
+  align-content: none;
+  justify-content: space-between; }
+  .gridArticles2 .gridArticles2_container {
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: 40% 60%;
+    align-content: none;
+    justify-content: none;
+    border-top: 5px solid aliceblue;
+    text-align: justify;
+    padding: 10px;
+    gap: 15px;
+    margin-top: 15px; }
+
+.iconVermas {
   color: black;
   font-size: 10px; }

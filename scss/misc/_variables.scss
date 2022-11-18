@@ -16,3 +16,11 @@ $font-lx: 16px;
 $font-ml: 14px;
 $font-sm: 10px;
 $font-xs: 9px;
+
+/* breakpoitns */
+$breakpoints: (
+  large: "(min-width: 800px)",
+  medium: "(max-width: 799px)",
+
+);
+
