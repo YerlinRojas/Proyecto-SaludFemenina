@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font-primary;
+}
+
+li{
+    text-decoration: none;
+}
+
+ul{
+    text-decoration: none;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    text-decoration-color: none
+    ;
+}
+
+h1{
+    color: black;
+    font-size: $font-lx;
+}
+
+p{
+    color: black;
+    font-size: $font-ml;
+    text-decoration: none;
+} 
+
+h3{
+    color: $text-color;
+    font-size: $font-ml;
+}
+
+h4 a{
+    color: $text-color;
+    font-size: $font-sm;
+    text-decoration: none;
+}
+
+h5{
+    color: $color-primary;
+    font-size: $font-ml;
+    font-weight: bold;
+    
+
+}
+
+
+ul{
+
+    & li{
+        text-decoration: none;
+        list-style: none;
+        & a {
+            text-decoration: none;
+        }
+    }
+}
+

@@ -1,0 +1,29 @@
+{
+  "name": "proyecto-saludfemenina-master",
+  "version": "1.0.0",
+  "description": "ProyectoSF",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-sass": "node-sass --include-path scss scss/origin.scss styles/main.css",
+    "watch-sass": "nodemon -e scss -x \"npm run build-sass\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YerlinRojas/Proyecto-SF.git"
+  },
+  "keywords": [
+    "\"saludFemenina\"",
+    "\"proyecto\""
+  ],
+  "author": "Yerlin Rojas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YerlinRojas/Proyecto-SF/issues"
+  },
+  "homepage": "https://github.com/YerlinRojas/Proyecto-SF#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
