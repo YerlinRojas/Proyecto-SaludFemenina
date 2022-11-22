@@ -19,9 +19,7 @@ $font-sm: 10px;
 $font-xs: 9px;
 
 /* breakpoitns */
-$breakpoints: (
-  large: "(min-width: 800px)",
-  medium: "(max-width: 799px)",
+$sm-bp:768px;
+$lg-bp:992px;
 
-);
 

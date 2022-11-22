@@ -1,20 +1,187 @@
-/* @if $footer == mobile {
-    @media screen and (min-width:800px) {
-        
-    }} else {
-
-    }
- */
- 
-
-/* comienzo del footer desk */
+/* media small */
+@media screen and (max-width: $sm-bp){
+        /* comienzo del footer small */
     
 .footContainer{
-    display: grid;
-    grid-template-columns: 70% 30%;
+    @include gridarticles(none,(70% 30%),center,center);
     background-color: $color-secondary;
     margin-top: 15px;
-    align-items: center;
+
+
+}
+
+.containerTermsCubo {
+    @include flex (column,none,none);
+    margin-left: 15px;
+
+}
+
+.containerTerms {
+@include flex (column,none,none);
+text-align: justify;
+width: 80%;
+padding-left: 5px;
+padding-top: 15px;
+}
+
+.containerTerms div ul li a{
+    text-decoration: none;
+}
+
+.conteinerCMSF {
+    @include flex (none, flex-start, center);
+    background-color: $color-primary;
+    height: 70px;
+    width: 60%;
+    margin-left: 20px;
+    box-shadow: 1px 1px 10px #6b6b6b;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+ } 
+
+
+ .textCMSFdeco{
+    color: $text-color;
+    padding: 10px; 
+    font-size: $font-sm;
+    text-align: justify;
+ }
+
+
+.iconSM {
+    @include flex (row,none,center);
+    padding-bottom: 15px;
+    margin-block: 15px;
+
+}
+
+.iconSM div a{
+    color: $text-color;
+     margin-left: 5px;
+    font-size: $font-ml;
+}
+
+
+.footCont2 {
+    @include flex(column, space-between, none);
+    width: 80%;
+    padding-left: 15px;
+}
+
+
+.textTerms {
+    color: $text-color;
+    font-size: $font-sm;
+    text-align: justify;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.footCont2icon{
+    @include flex (row,space-between,center);
+
+
+}
+
+}
+
+
+
+
+/******* media medium *******/
+
+@media screen and (min-width: $sm-bp){
+    /* comienzo del footer medium */
+    
+.footContainer{
+    @include gridarticles((70% 30%),none,center,none);
+    background-color: $color-secondary;
+    margin-top: 15px;
+    padding-top: 15px;
+
+}
+
+.containerTermsCubo {
+    @include flex (column,space-between,none);
+    gap: 10px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+
+}
+
+.containerTerms {
+@include flex (column,none,center);
+text-align: justify;
+width: 80%;
+padding-left: 5px;
+padding-top: 15px;
+}
+
+.containerTerms div ul li a{
+    text-decoration: none;
+}
+
+.conteinerCMSF {
+    @include flex (none, flex-start, center);
+    background-color: $color-primary;
+    height: 70px;
+    width: 60%;
+    margin-left: 20px;
+    box-shadow: 1px 1px 10px #6b6b6b;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+ } 
+
+
+ .textCMSFdeco{
+    color: $text-color;
+    padding: 10px; 
+    font-size: $font-ml;
+    text-align: justify;
+ }
+
+
+.iconSM {
+    @include flex (row,none,center);
+    padding-bottom: 15px;
+    margin-block: 15px;
+
+}
+
+.iconSM div a{
+    color: $text-color;
+     margin-left: 5px;
+    font-size: $font-ml;
+}
+
+
+.footCont2 {
+    @include flex(column, space-between, none);
+    width: 80%;
+}
+
+
+.textTerms {
+    color: $text-color;
+    font-size: $font-ml;
+    text-align: justify;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+}
+
+
+
+
+/* media large */
+@media screen and (min-width: $lg-bp){
+    /* comienzo del footer large */
+    
+.footContainer{
+    @include gridarticles((70% 30%),none,center,none);
+    background-color: $color-secondary;
+    margin-top: 15px;
+    padding-top: 15px;
+
 }
 
 .containerTermsCubo {
@@ -52,7 +219,7 @@ padding-top: 15px;
  .textCMSFdeco{
     color: $text-color;
     padding: 10px; 
-    font-size: $font-sm;
+    font-size: $font-ml;
     text-align: justify;
  }
 
@@ -60,6 +227,7 @@ padding-top: 15px;
 .iconSM {
     @include flex (row,none,center);
     padding-bottom: 15px;
+    margin-block: 15px;
 
 }
 
@@ -83,3 +251,5 @@ padding-top: 15px;
     padding-bottom: 0px;
     margin-bottom: 0px;
 }
+}
+

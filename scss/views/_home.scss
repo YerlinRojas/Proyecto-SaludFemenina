@@ -1,3 +1,99 @@
+
+/* media small */
+@media screen and (max-width: $sm-bp){
+    .containerCaro{
+        margin-top: 10px;
+    }
+    
+    /* infoHome */
+    
+    .gridInfoHome{
+        @include flex(row,flex-start,none);
+        gap: 10px;
+        margin-top: 10px;
+        
+        & .gridInfoHome_art:nth-child(1){
+            box-sizing: content-box;
+            width: 50%;
+            border: 4px solid aliceblue;
+            padding: 5px;
+         
+        }
+    
+        & .gridInfoHome_art:nth-child(2){
+            box-sizing: content-box;
+            width: 50%;
+            border: 4px solid aliceblue;
+            padding: 5px;
+        }
+
+    
+    }
+
+    .gridInfoHome_art h1{
+        font-size: $font-ml;
+        font-weight: bold;
+
+    }
+    
+    .gridInfoHome_art p{
+        font-size: $font-sm;
+
+    }
+
+    .iconVermas {
+        text-decoration: none;
+        color: black;
+        font-size: $font-xs;
+    }  
+
+
+
+}
+
+/* media medium */
+@media screen and (min-width: $sm-bp){
+
+        .containerCaro{
+            margin-top: 10px;
+        }
+        
+        /* infoHome */
+        
+        .gridInfoHome{
+            @include flex(row,flex-start,none);
+            gap: 10px;
+            margin-top: 10px;
+            
+            & .gridInfoHome_art:nth-child(1){
+                box-sizing: content-box;
+                width: 50%;
+                border: 4px solid aliceblue;
+                padding: 5px;
+             
+            }
+        
+            & .gridInfoHome_art:nth-child(2){
+                box-sizing: content-box;
+                width: 50%;
+                border: 4px solid aliceblue;
+                padding: 5px;
+            }
+
+        
+        }
+        
+        .iconVermas {
+            text-decoration: none;
+            color: black;
+            font-size: $font-xs;
+        }  
+}
+
+
+
+/* media large */
+@media screen and (min-width: $lg-bp){
 .containerCaro{
     margin-top: 10px;
 }
@@ -31,6 +127,10 @@
     color: black;
     font-size: $font-sm;
 }
+
+}
+
+
 
 
 
