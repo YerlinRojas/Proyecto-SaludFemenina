@@ -5,34 +5,40 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Centro Medico Salud Femenina, Ginecologia, Obstetricia. Clinica Femenina"/>
+  <meta name="keywords" content="ginecologia, obstetricia, centro medico, clinica, femenina, enfermedades medicas"/>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-  <link rel="stylesheet" href="../styles/style.css" />
-  <title>Servicios</title>
+  <link rel="stylesheet" href="./../styles/main.css" />
+  <title>Servicios del Centro Medico Salud Femenina</title>
 </head>
 
 <body>
-  <div class="body">
+  <div>
     <div class="container">
 
-      <!-- encabezado -->
-      <header class="encabezado encabezadoMobile">
-        <div>
-          <a href="./../index.html">
-            <img src="./../assents/images/LogoRosaSF.png" alt="logo" width="200px" height="auto">
-          </a>
-        </div>
-        <div>
-          <h5 class="letraHeader">Acceso Resgistro</h5>
-          <a class="letraHeader" href="./registropaciente.html">Paciente</a>
-          <a class="letraHeader" href="./profesionalesmedicos.html">Profesional Medico</a>
-        </div>
+  <!-- comienzo del header -->
 
-      </header>
+  <header class="encabezado encabezadoMobile">
+    <div>
+      <a href="../index.html">
+        <img src="../assents/images/LogoRosaSF.png" alt="logo" width="200px" height="auto">
+      </a>
+    </div>
+    <div>
+      <h5 class="letraHeader">Acceso Resgistro</h5>
+      <a class="letraHeader" href="./registropaciente.html">
+        <h5>Paciente</h5>
+      </a>
+      <a class="letraHeader" href="./profesionalesmedicos.html">
+        <h5>Profesional Medico</h5>
+      </a>
+    </div>
+  </header>
 
       <!-- comienzo del nav -->
-      <nav class="navbar navbar-expand-lg  barraNav navMobile" style="background-color: #2c6ccc">
-        <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbarColor">
+        <div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
@@ -41,16 +47,17 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="./../index.html">Inicio</a>
+                <a class="nav-link " aria-current="page" href="../index.html">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                <a class="nav-link" href="./nosotros.html"
+                  >Nosotros</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " style="color: #2c6ccc; border-radius: 7px; background-color: white;" href="./servicios.html">Servicios</a>
+                <a class="nav-link" style="color: #2c6ccc; border-radius: 4px; background-color: white" href="./servicios.html">Servicios</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./profesionalesmedicos.html">Para Profesional Medico</a>
+                <a class="nav-link"  href="./profesionalesmedicos.html">Para Profesional Medico</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./donaciones.html">Donaciones</a>
@@ -64,30 +71,58 @@
         </div>
       </nav>
 
-      <!-- menu de navegacion por servicios -->
-      <section>
-        <div class="spaceTop">
-          <div class="menuSerMobile">
-            <div class="menuPorNavegacion">
-              <div class="menuCompleto">
-                <div class="menuConsultas menuConsultasMobile">
-                  <div class="menuServiciosList">
-                    <a href="./consultas.html">
-                      <picture><img src="./../assents/images/LogoConsultas.png" alt="consultas" width="200px" />
-                      </picture>
-                    </a>
+     <!-- menu de navegacion por servicios -->
+     <section>
+      <div class="spaceTop">
+        <div class="menuSerMobile">
+          <div class="menuPorNavegacion">
+            <div class="menuCompleto">
+              <div class="menuConsultas menuConsultasMobile">
+                <div class="menuServiciosList">
+                  <a href="./consultas.html">
+                    <picture><img src="./../assents/images/LogoConsultas.png" class="img-fluid" alt="consultas"
+                        width="200px" />
+                    </picture>
+                  </a>
+                  <h3 class="colorTextMenuNav">
+                    Consulta con tu medico de preferencia
+                  </h3>
+                </div>
+                <div class="capaContenedor">
+                  <div class="displayNone">
+                    <div><a class="colorTituloEfec2" href="./consultas.html">Consultas</a></div>
+                    <div>
+                      <a href="./consultas.html">
+                        <p class="colorTextEfec2">
+                          Nuestros profesionales en la salud estan disponibles para
+                          atenderte.
+                        </p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="divisionLabCamChat">
+                <div class="menuLab menuLabMobile">
+                  <div class="menuServiciosList ">
+                    <div class="espacioLabMobi">
+                      <a href="./laboratorio.html">
+                        <picture><img class="img-fluid" src="./../assents/images/LogoLaboratiorio.png"
+                            alt="laboratorio" width="150px" /></picture>
+                      </a>
+                    </div>
                     <h3 class="colorTextMenuNav">
-                      Consulta con tu medico de preferencia
+                      Encuentra tus resultados de laboratorio
                     </h3>
                   </div>
-                  <div class="capaContenedor">
+                  <div class="capaContenedorLab">
                     <div class="displayNone">
-                      <div><a class="colorTituloEfec" href="./consultas.html">Consultas</a></div>
+                      <div><a class="colorTituloEfec2" href="./laboratorio.html">Laboratorio</a></div>
                       <div>
-                        <a href="./consultas.html">
-                          <p class="colorTextEfec">
-                            Nuestros profesionales en la salud estan disponibles para
-                            atenderte.
+                        <a href="./laboratorio.html">
+                          <p class="colorTextEfec2">
+                            Encuentra rapido y facil, tus resultados de laboratorio.
                           </p>
                         </a>
                       </div>
@@ -95,26 +130,21 @@
                   </div>
                 </div>
 
-                <div class="divisionLabCamChat">
-                  <div class="menuLab menuLabMobile">
-                    <div class="menuServiciosList ">
-                      <div class="espacioLabMobi">
-                        <a href="./laboratorio.html">
-                          <picture><img src="./../assents/images/LogoLaboratiorio.png" alt="laboratorio"
-                              width="150px" /></picture>
-                        </a>
-                      </div>
-                      <h3 class="colorTextMenuNav">
-                        Encuentra tus resultados de laboratorio
-                      </h3>
+                <div class="divisionCamChat">
+                  <div class="menuCamDoctor menuCamDoctorMobile">
+                    <div>
+                      <a href="./camdoctor.html">
+                        <picture><img class="marginCamdoctor img-fluid" src="./../assents/images/LogoCamdoctor.png"
+                            alt="camdoctor" width="90px" /></picture>
+                      </a>
                     </div>
-                    <div class="capaContenedorLab">
+                    <div class="capaContenedorCam">
                       <div class="displayNone">
-                        <div><a class="colorTituloEfec" href="./laboratorio.html">Laboratorio</a></div>
+                        <div> <a class="colorTituloEfec2" href="./camdoctor.html">Cam Doctor</a></div>
                         <div>
-                          <a href="./laboratorio.html">
-                            <p class="colorTextEfec">
-                              Encuentra rapido y facil, tus resultados de laboratorio.
+                          <a href="./camdoctor.html">
+                            <p class="colorTextEfec2">
+                              Hablaras con un medico especialista en la salud.
                             </p>
                           </a>
                         </div>
@@ -122,47 +152,24 @@
                     </div>
                   </div>
 
-                  <div class="divisionCamChat">
-                    <div class="menuCamDoctor menuCamDoctorMobile">
+                  <div class="divisionChat">
+                    <div class="menuChat menuChatMobile">
                       <div>
-                        <a href="./camdoctor.html">
-                          <picture><img class="marginCamdoctor" src="./../assents/images/LogoCamdoctor.png"
-                              alt="camdoctor" width="90px" /></picture>
+                        <a href="./chat.html">
+                          <picture><img class="rectNavServ4 img-fluid" src="./../assents/images/LogoChat.png"
+                              alt="chat" width="80px" /></picture>
                         </a>
                       </div>
-                      <div class="capaContenedorCam">
+                      <div class="capaContenedorChat">
                         <div class="displayNone">
-                          <div> <a class="colorTituloEfec2" href="./camdoctor.html">Cam Doctor</a></div>
+                          <div><a class="colorTituloEfec2" href="./chat.html">Chat</a></div>
                           <div>
-                            <a href="./camdoctor.html">
+                            <a href="./chat.html">
                               <p class="colorTextEfec2">
-                                Hablaras con un medico especialista en la salud.
+                                Contactate con nuestro personal. Te ayudaran con tus
+                                dudas
                               </p>
                             </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="divisionChat">
-                      <div class="menuChat menuChatMobile">
-                        <div>
-                          <a href="./chat.html">
-                            <picture><img class="rectNavServ4" src="./../assents/images/LogoChat.png" alt="chat"
-                                width="80px" /></picture>
-                          </a>
-                        </div>
-                        <div class="capaContenedorChat">
-                          <div class="displayNone">
-                            <div><a class="colorTituloEfec2" href="./chat.html">Chat</a></div>
-                            <div>
-                              <a href="./chat.html">
-                                <p class="colorTextEfec2">
-                                  Contactate con nuestro personal. Te ayudaran con tus
-                                  dudas
-                                </p>
-                              </a>
-                            </div>
                           </div>
                         </div>
                       </div>
@@ -173,126 +180,105 @@
             </div>
           </div>
         </div>
-      </section>
-      <!-- comienzo del footer -->
-      <footer>
-        <div class="footContainer footContainerMobile">
-        <div class="containerTermsCubo containerTermsCuboMobile">
-      
-          <div class="containerTerms">
-            
-            <div class="contTerms contTermsMobile">
-              <div>
-              <p class="textTerms">
-                Cualquier uso de este sitio constituye su acuerdo con los términos
-                y condiciones y política de privacidad para los que hay enlaces
-                abajo.
-              </p>
-              </div>
-      
-              <div>
-              <ul>
-                <li>
-                  <a
-                    class="textTerms"
-                    href="https://www.argentina.gob.ar/terminos-y-condiciones"
-                    >Términos y condiciones</a
-                  >
-                </li>
-                
-                
-                <li>
-                  <a
-                    class="textTerms"
-                    href="https://www.argentina.gob.ar/terminos-y-condiciones"
-                    >Política de privacidad</a
-                  >
-                </li>
-                
-                
-                <li>
-                  <a
-                    class="textTerms"
-                    href="https://www.argentina.gob.ar/terminos-y-condiciones"
-                    >Aviso de prácticas en cuanto a privacidad</a
-                  >
-                </li>
-                
-                
-                <li>
-                  <a
-                    class="textTerms"
-                    href="https://www.argentina.gob.ar/terminos-y-condiciones"
-                    >Para administrar cookies</a
-                  >
-                </li>
+      </div>
+
+    </section>
+
+ <!-- comienzo del footer -->
+
+ <footer>
+  <div class="footContainer footContainerMobile">
+    <div class="containerTermsCubo containerTermsCuboMobile">
+
+      <div class="containerTerms">
+        <div class="contTermsMobile">
+          <div>
+            <p class="textTerms">
+              Cualquier uso de este sitio constituye su acuerdo con los términos
+              y condiciones y política de privacidad para los que hay enlaces
+              abajo.
+            </p>
+          </div>
+          <div>
+            <ul>
+              <li>
+                <a class="textTerms" href="https://www.argentina.gob.ar/terminos-y-condiciones">Términos y
+                  condiciones.</a></li>
+                <li><a class="textTerms" href="https://www.argentina.gob.ar/terminos-y-condiciones">Política de
+                  privacidad.</a></li>
+                <li><a class="textTerms" href="https://www.argentina.gob.ar/terminos-y-condiciones">Aviso de prácticas
+                  en cuanto a privacidad.</a></li>
+               <li><a class="textTerms" href="https://www.argentina.gob.ar/terminos-y-condiciones">Para administrar
+                  cookies.</a></li>
                 
               </ul>
-            </div>
-            
-          </div>
-            </div>
-      
-            <div class="conteinerCMSF contCMSFmobile">
-              <div>
-                <a href="./index.html"
-                  ><h5 class="textCMSFdeco">
-                    Centro Medico de Salud Femenina es una organizacion sin fines
-                    de lucro
-                  </h5></a>
-              </div>
-            </div>
-          </div>
-      
-          <div class="footCont2 footCont2Mobi">
-            <div class= "footCont2Mobile"> 
-              <div>
-              <div><h4 class="textTerms">Contactanos</h4></div>
-              <div><h4 class="textTerms">Ubicacion</h4>
-                <p class="textTerms">750 N 72nd Ave, Pembroke Pines, FL 33024, Estados Unidos</p></div>
-              </div>
-      
-        <div class="footCont2icon">
-                <div class="iconSM iconSMmobi">
-                <div>
-                <a href="https://www.instagram.com"
-                ><picture>
-                  <img src="./../assents/images/IgLogo.png" class="img-fluid" alt="instagram" width="20px">
-                  </picture></a>
-                    </div>
-              <div><a href="https://www.instagram.com">Instagram</a></div>
-            </div>
-          
-            <div class="iconSM iconSMmobi">
-              <div>
-              <a href="https://www.facebook.com"
-                ><picture><img
-                  src="./../assents/images/FbLogo.png" class="img-fluid"
-                  alt="facebook" width="20px"
-              /></picture></a>
-              </div>
-              <div><a href="https://www.facebook.com">Facebook</a></div>
-            </div>
-      
-            <div class="iconSM iconSMmobi">
-              <div>
-              <a href="https://twitter.com/?lang=es"
-                ><img
-                  src="./../assents/images/TwLogo.png" class="img-fluid"
-                  alt="twitter" width="20px"
-              /></a>
-              </div>
-              <div><a href="https://twitter.com/?lang=es">Twitter</a></div>
-              </div>
-            </div>
-      
-            </div>
-            </div>
-            </div>
           </div>
         </div>
-      </footer>
+      </div>
+
+      <div class="conteinerCMSF contCMSFmobile">
+        <div>
+          <a href="./index.html">
+            <h5 class="textCMSFdeco">
+              Centro Medico de Salud Femenina es una organizacion sin fines
+              de lucro
+            </h5>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footCont2 footCont2Mobi">
+      <div class="footCont2Mobile">
+        <div>
+          <div>
+            <h4 class="textTerms">Contactanos</h4>
+          </div>
+          <div>
+            <h4 class="textTerms">Ubicacion</h4>
+            <p class="textTerms">750 N 72nd Ave, Pembroke Pines, FL 33024, Estados Unidos</p>
+          </div>
+        </div>
+
+        <div class="footCont2icon">
+          <div class="iconSM iconSMmobi">
+            <div>
+              <a href="https://www.instagram.com">
+                <picture>
+                  <img src="./assents/images/IgLogo.png" class="img-fluid" alt="instagram" width="20px">
+                </picture>
+              </a>
+            </div>
+            <div><a href="https://www.instagram.com">Instagram</a></div>
+          </div>
+
+          <div class="iconSM iconSMmobi">
+            <div>
+              <a href="https://www.facebook.com">
+                <picture><img src="./assents/images/FbLogo.png" class="img-fluid" alt="facebook" width="20px" />
+                </picture>
+              </a>
+            </div>
+            <div><a href="https://www.facebook.com">Facebook</a></div>
+          </div>
+
+          <div class="iconSM iconSMmobi">
+            <div>
+              <a href="https://twitter.com/?lang=es"><img src="./assents/images/TwLogo.png" class="img-fluid"
+                  alt="twitter" width="20px" /></a>
+            </div>
+            <div><a href="https://twitter.com/?lang=es">Twitter</a></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
   </div>
+</div>
+</div>
+</footer>
+
+      </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"

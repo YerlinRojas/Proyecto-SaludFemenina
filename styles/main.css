@@ -381,6 +381,15 @@ header {
     padding-right: 10px;
     border-top: 5px solid aliceblue;
     text-align: justify; }
+  .containerHospital .containerHospital_profesional {
+    text-align: justify; }
+
+.rrhh_info {
+  margin-top: 20px;
+  margin-left: 30%;
+  color: #2c6ccc;
+  text-decoration: none;
+  font-size: 20px; }
 
 .gridArticles2 {
   display: grid;
@@ -391,15 +400,40 @@ header {
   .gridArticles2 .gridArticles2_container {
     display: grid;
     grid-template-columns: none;
-    grid-template-rows: 40% 60%;
+    grid-template-rows: 45% 55%;
     align-content: none;
     justify-content: none;
     border-top: 5px solid aliceblue;
     text-align: justify;
     padding: 10px;
-    gap: 15px;
     margin-top: 15px; }
 
 .iconVermas {
   color: black;
   font-size: 10px; }
+
+/* donaciones */
+.containerPageDonar {
+  display: grid;
+  padding: 15px;
+  grid-template-rows: auto auto auto;
+  align-content: space-between;
+  margin-top: 15px; }
+
+.containerPageDonar div h3 {
+  font-size: 18px;
+  font-weight: bold; }
+
+.containerCompletoDonar {
+  margin-bottom: 15px; }
+
+.contenedor_donar {
+  background-color: aliceblue;
+  border-radius: 5px;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px; }
+
+.marginCero {
+  margin-top: 0px;
+  padding-top: 0px; }

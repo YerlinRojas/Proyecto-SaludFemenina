@@ -1,0 +1,36 @@
+
+/* donaciones */
+
+.containerPageDonar{
+    display: grid;
+    padding: 15px;
+    grid-template-rows: auto auto auto;
+    align-content: space-between;
+    margin-top: 15px;
+}
+
+.containerPageDonar div h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.containerCompletoDonar {
+    margin-bottom: 15px;
+}
+
+
+.contenedor_donar {
+    background-color:aliceblue;
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+
+}
+
+
+    .marginCero{
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
