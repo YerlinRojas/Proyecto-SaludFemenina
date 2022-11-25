@@ -14,3 +14,15 @@
     justify-content: $justify;
     
 }
+
+@mixin theme-colors($light-theme: true) {
+    @if $light-theme {
+      background-color: $donation;
+      color:black;
+      border-radius: 10px;
+    } @else {
+      background-color: orange;
+      color: black;
+    }
+  }
+  

@@ -1,0 +1,73 @@
+@keyframes move1 {
+
+0%{
+    transform: translateX(-10%);
+}
+
+70%{
+    transform: translateX(-10%);
+    background-color: aliceblue;
+}
+
+100%{
+    transform: translateX(0%);
+    background-color: black;
+}
+
+}
+
+
+@keyframes move2 {
+
+    0%{
+        transform: translateX(-15%);
+    }
+    
+    70%{
+        transform: translateX(-10%);
+        background-color: aliceblue;
+    }
+    
+    100%{
+        transform: translateX(0%);
+        background-color: black;
+    }
+    
+    }
+
+
+    @keyframes move3 {
+
+        0%{
+            transform: translateX(-20%);
+        }
+        
+        70%{
+            transform: translateX(-10%);
+            background-color: aliceblue;
+        }
+        
+        100%{
+            transform: translateX(0%);
+            background-color: black;
+        }
+        
+        }
+
+        @keyframes move4 {
+
+            0%{
+                transform: translateX(-25%);
+            }
+            
+            70%{
+                transform: translateX(-10%);
+                background-color: aliceblue;
+            }
+            
+            100%{
+                transform: translateX(0%);
+                background-color: black;
+            }
+            
+            }

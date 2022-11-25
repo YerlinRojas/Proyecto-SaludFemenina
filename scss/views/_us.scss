@@ -35,8 +35,9 @@
 /* media medium */
 @media screen and (min-width: $sm-bp){
     .containerHospital {
-        @include gridarticles ((50% 50%), none, end, space-between);
+        @include gridarticles (none, auto auto, center, space-between);
         align-items: flex-end;
+        margin-top: 15px;
         & .containerHospital_content{
             padding-right: 10px;
             border-top: 5px solid aliceblue;
@@ -51,23 +52,18 @@
     }
     
     .rrhh_info{
-        margin-top: 20px;
-        margin-left: 30%;
         color: #2c6ccc;
         text-decoration: none;
         font-size: $font-lxx
-        
-    
     }
     
     .gridArticles2 {
-        @include gridarticles ((50% 50%), none, none, space-between);
+        @include gridarticles (none,(auto auto), center, center);
     
         & .gridArticles2_container{
-            @include gridarticles (none, (50% 50%),none, none);
+            @include gridarticles (none, none,center, none);
             border-top: 5px solid aliceblue;
             text-align: justify;
-            padding: 10px 10px 0px 10px;
             margin-top: 15px;
     
             }
@@ -79,6 +75,11 @@
     }
 
 
+    .containerHospital_profesional{
+        @include flex(column,none,center);
+        text-align: justify;
+        margin-top: 15px;
+    }
 /* media large */
 @media screen and (min-width: $lg-bp) {
 
@@ -112,10 +113,10 @@
     @include gridarticles ((50% 50%), none, none, space-between);
 
     & .gridArticles2_container{
-        @include gridarticles (none, (38% 62%),none, none);
+        @include gridarticles (none, (45% 55%),none, none);
         border-top: 5px solid aliceblue;
         text-align: justify;
-        padding: 10px;
+        padding: 5px 5px 0px 5px;
         margin-top: 15px;
 
         }

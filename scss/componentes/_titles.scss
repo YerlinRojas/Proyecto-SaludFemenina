@@ -1,0 +1,6 @@
+@each $size in $titles {
+    .titles-#{$size} {
+        font-size: $size *1px;
+    }
+}
+

@@ -43,8 +43,8 @@ padding-top: 15px;
  .textCMSFdeco{
     color: $text-color;
     padding: 10px; 
-    font-size: $font-sm;
     text-align: justify;
+    font-size: $font-sm;
  }
 
 
@@ -57,8 +57,7 @@ padding-top: 15px;
 
 .iconSM div a{
     color: $text-color;
-     margin-left: 5px;
-    font-size: $font-ml;
+    margin-left: 5px;
 }
 
 
@@ -71,14 +70,13 @@ padding-top: 15px;
 
 .textTerms {
     color: $text-color;
-    font-size: $font-sm;
     text-align: justify;
     padding-bottom: 0px;
     margin-bottom: 0px;
 }
+
 .footCont2icon{
     @include flex (row,space-between,center);
-
 
 }
 
@@ -109,7 +107,7 @@ padding-top: 15px;
 }
 
 .containerTerms {
-@include flex (column,none,center);
+@include flex (column,none,none);
 text-align: justify;
 width: 80%;
 padding-left: 5px;
@@ -135,8 +133,8 @@ padding-top: 15px;
  .textCMSFdeco{
     color: $text-color;
     padding: 10px; 
-    font-size: $font-ml;
     text-align: justify;
+    font-size: $font-sm;
  }
 
 
@@ -149,8 +147,7 @@ padding-top: 15px;
 
 .iconSM div a{
     color: $text-color;
-     margin-left: 5px;
-    font-size: $font-ml;
+    margin-left: 5px;
 }
 
 
@@ -162,7 +159,6 @@ padding-top: 15px;
 
 .textTerms {
     color: $text-color;
-    font-size: $font-ml;
     text-align: justify;
     padding-bottom: 0px;
     margin-bottom: 0px;
@@ -193,7 +189,7 @@ padding-top: 15px;
 }
 
 .containerTerms {
-@include flex (column,none,center);
+@include flex (column,none,none);
 text-align: justify;
 width: 80%;
 padding-left: 5px;
@@ -219,8 +215,8 @@ padding-top: 15px;
  .textCMSFdeco{
     color: $text-color;
     padding: 10px; 
-    font-size: $font-ml;
     text-align: justify;
+    font-size: $font-ml;
  }
 
 
@@ -233,8 +229,7 @@ padding-top: 15px;
 
 .iconSM div a{
     color: $text-color;
-     margin-left: 5px;
-    font-size: $font-ml;
+    margin-left: 5px;
 }
 
 
@@ -246,7 +241,6 @@ padding-top: 15px;
 
 .textTerms {
     color: $text-color;
-    font-size: $font-ml;
     text-align: justify;
     padding-bottom: 0px;
     margin-bottom: 0px;

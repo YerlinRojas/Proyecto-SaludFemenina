@@ -20,11 +20,10 @@
 
 
 .contenedor_donar {
-    background-color:aliceblue;
-    border-radius: 5px;
     width: fit-content;
     height: fit-content;
     padding: 10px;
+    @include theme-colors($light-theme: true);
 
 }
 
