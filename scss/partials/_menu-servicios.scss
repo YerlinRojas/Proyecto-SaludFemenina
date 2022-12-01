@@ -28,10 +28,10 @@
             /* animacion */
             animation-name: move1;
             animation-duration: 2s;
-            animation-iteration-count: 2;
+            animation-iteration-count: 1;
             animation-fill-mode: both;
             animation-direction: alternate;
-            animation-timing-function: ease-in 
+            animation-timing-function: ease; 
         }
 
         
@@ -83,10 +83,10 @@
             /* animacion */
             animation-name: move2;
             animation-duration: 2s;
-            animation-iteration-count: 2;
+            animation-iteration-count: 1;
             animation-fill-mode: both;
             animation-direction: alternate;
-            animation-timing-function: ease-in
+            animation-timing-function: ease;
         }
         
         .capaContenedorLab {
@@ -128,10 +128,10 @@
             /* animacion */
             animation-name: move3;
             animation-duration: 2s;
-            animation-iteration-count: 2;
+            animation-iteration-count: 1;
             animation-fill-mode: both;
             animation-direction: alternate;
-            animation-timing-function: ease-in
+            animation-timing-function: ease;
         }
         
         .capaContenedorCam {
@@ -183,10 +183,10 @@
             /* animacion */
             animation-name: move4;
             animation-duration: 2s;
-            animation-iteration-count: 2;
+            animation-iteration-count: 1;
             animation-fill-mode: both;
             animation-direction: alternate;
-            animation-timing-function: ease-in
+            animation-timing-function: ease;
             
 
 }

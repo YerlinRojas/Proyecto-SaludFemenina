@@ -1,18 +1,19 @@
 @keyframes move1 {
+    0%{
+        transform: translateX(0%);
+    }
+    
+    40%{
+        transform: translateX(-5%);
+        background-color: aliceblue;
+    }
+    
+    70%{
+        transform: translateX(-5%);  
+        background-color:black;
+    }
 
-0%{
-    transform: translateX(-10%);
-}
 
-70%{
-    transform: translateX(-10%);
-    background-color: aliceblue;
-}
-
-100%{
-    transform: translateX(0%);
-    background-color: black;
-}
 
 }
 
@@ -20,18 +21,19 @@
 @keyframes move2 {
 
     0%{
-        transform: translateX(-15%);
+        transform: translateX(0%);
     }
     
-    70%{
+    40%{
         transform: translateX(-10%);
         background-color: aliceblue;
     }
     
-    100%{
-        transform: translateX(0%);
-        background-color: black;
+    75%{
+        transform: translateX(-10%);  
+        background-color:black;
     }
+    
     
     }
 
@@ -39,17 +41,17 @@
     @keyframes move3 {
 
         0%{
-            transform: translateX(-20%);
+            transform: translateX(0%);
         }
         
-        70%{
-            transform: translateX(-10%);
+        40%{
+            transform: translateX(-15%);
             background-color: aliceblue;
         }
         
-        100%{
-            transform: translateX(0%);
-            background-color: black;
+        80%{
+            transform: translateX(-15%);  
+            background-color:black;
         }
         
         }
@@ -57,17 +59,18 @@
         @keyframes move4 {
 
             0%{
-                transform: translateX(-25%);
+                transform: translateX(0%);
             }
             
-            70%{
-                transform: translateX(-10%);
+            40%{
+                transform: translateX(-20%);
                 background-color: aliceblue;
             }
             
-            100%{
-                transform: translateX(0%);
-                background-color: black;
+            85%{
+                transform: translateX(-20%);  
+                background-color:black;
             }
+            
             
             }
