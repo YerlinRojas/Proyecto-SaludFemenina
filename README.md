@@ -13,7 +13,7 @@ Se proyectan funcionalidades para que los pacientes y médicos puedan registrars
 
 ## Tecnologías Utilizadas
 
-- **Frontend:** HTML, CSS, SCCS
+- **Frontend:** HTML, CSS, SCSS
 
 ## Instalación
 
