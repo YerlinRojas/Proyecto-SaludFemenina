@@ -24,3 +24,5 @@ Se proyectan funcionalidades para que los pacientes y médicos puedan registrars
 
 ## Para ver DEMO
 https://yerlinrojas.github.io/Proyecto-SaludFemenina/
+
+![Demo GIF](./centroMedicoSaludFemenina.gif)
