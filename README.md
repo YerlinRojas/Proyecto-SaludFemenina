@@ -11,7 +11,7 @@ Se proyectan funcionalidades para que los pacientes y médicos puedan registrars
 4. **Chat:** Los usuarios pueden comunicarse mediante un sistema de chat integrado.
 5. **Consultas:** Los pacientes pueden programar consultas presenciales con los médicos.
 
-6. ## Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 - **Frontend:** HTML, CSS
 
